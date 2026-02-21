@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendTap - サポート</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+      background-color: #faf8f5;
+      color: #3d3d3d;
+      line-height: 1.8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 60px 24px 40px;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #b8d8e8, #a8d4b8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #2d2d2d;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-size: 15px;
+      color: #7a7a7a;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .section h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #2d2d2d;
+      margin-bottom: 12px;
+    }
+
+    .section p {
+      font-size: 15px;
+      color: #5a5a5a;
+    }
+
+    .section a {
+      color: #6aadcf;
+      text-decoration: none;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      font-size: 15px;
+      color: #5a5a5a;
+      padding: 6px 0;
+      padding-left: 24px;
+      position: relative;
+    }
+
+    .features li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #a8d4b8;
+      font-weight: 600;
+    }
+
+    .email-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 20px;
+      background: #6aadcf;
+      color: #ffffff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .email-link:hover {
+      opacity: 0.85;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 24px 32px;
+      font-size: 13px;
+      color: #aaaaaa;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="app-icon">💰</div>
+    <h1>SpendTap</h1>
+    <p class="tagline">3秒で記録、1画面で把握。シンプル支出管理アプリ</p>
+
+    <div class="section">
+      <h2>アプリについて</h2>
+      <ul class="features">
+        <li>3タップ以内で支出を記録</li>
+        <li>パステルカラーのやさしいデザイン</li>
+        <li>カテゴリ別・月別の支出を一目で把握</li>
+        <li>アカウント登録不要、データはデバイス内に保存</li>
+        <li>広告なし、完全無料</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>サポート・お問い合わせ</h2>
+      <p>ご質問やご要望がございましたら、お気軽にお問い合わせください。</p>
+      <a href="mailto:spark.tron2357@gmail.com" class="email-link">メールで問い合わせる</a>
+    </div>
+
+    <div class="section">
+      <h2>プライバシーポリシー</h2>
+      <p>本アプリのプライバシーポリシーは<a href="privacy.html">こちら</a>をご確認ください。</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 SpendTap
+  </footer>
+</body>
+</html>
